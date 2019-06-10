@@ -9,4 +9,5 @@ public interface PresenterContract {
     void sendArt(String art);
     void onError(String message);
     void getACard();
+    void updateUserInput(String input);
 }
